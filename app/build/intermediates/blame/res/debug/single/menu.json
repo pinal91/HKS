@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/register.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/register.xml"
+    },
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/contactus.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/contactus.xml"
+    },
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/productmaster.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/productmaster.xml"
+    },
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/productbrief.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/productbrief.xml"
+    },
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/listview.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/listview.xml"
+    },
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/home.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/home.xml"
+    },
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/productlist.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/productlist.xml"
+    },
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/aboutus.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/aboutus.xml"
+    },
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/list.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/list.xml"
+    },
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/list_single.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/list_single.xml"
+    },
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/briefview.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/briefview.xml"
+    },
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/merged/debug/menu/feedback.xml",
+        "source": "/home/pinal/Downloads/PROJECT/hks1/app/src/main/res/menu/feedback.xml"
+    }
+]

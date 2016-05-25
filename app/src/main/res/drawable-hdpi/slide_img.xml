@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+      <item
+        android:drawable="@drawable/flower_banner"
+        android:duration="3000"/>
+    
+    <item
+        android:drawable="@drawable/ic_groceries"
+        android:duration="3000"/>
+    
+    <item
+        android:drawable="@drawable/flower_banner"
+        android:duration="3000"/>
+    
+    <item
+        android:drawable="@drawable/ic_repairs"
+        android:duration="3000"/>
+    <item
+        android:drawable="@drawable/ic_launcher"
+        android:duration="3000"/>
+
+</animation-list>

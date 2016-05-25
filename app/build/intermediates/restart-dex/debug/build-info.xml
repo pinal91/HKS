@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="21"
+    density="420dpi"
+    format="7"
+    timestamp="23565520971871" >
+
+    <task
+        name="javac"
+        duration="619" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="43" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+        type="DEX" />
+
+    <build timestamp="18898872250813" >
+        <artifact
+            location="/home/pinal/Downloads/PROJECT/hks1/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="22280756419369" >
+        <artifact
+            location="/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="23565520971871" >
+        <artifact
+            location="/home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

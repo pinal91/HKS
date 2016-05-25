@@ -1,0 +1,376 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hks.HomeActivity"
+    android:background="@drawable/greybackground" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="436dp"
+        android:orientation="vertical" >
+        <LinearLayout
+        android:layout_width="match_parent"
+       
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="WELCOME TO:-"
+             />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+     
+            android:layout_height="wrap_content"
+            android:text="name"
+           />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#E74C3C"
+        android:layout_marginBottom="2dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/black"
+            android:orientation="vertical" >
+            <ImageView
+        android:id="@+id/slide_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        
+        android:contentDescription="sliding imageview" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:background="#eef4fd" >
+        
+       <SearchView
+        android:id="@+id/searchView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp" >
+       </SearchView>
+        
+    </FrameLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+      
+        android:layout_gravity="center"
+        android:orientation="vertical">
+    </LinearLayout>
+    
+    <LinearLayout
+       android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            
+            android:orientation="horizontal">
+        
+        
+            <Button
+       			 android:id="@+id/btnrealestate"
+        		 android:layout_width="match_parent"
+      		     android:layout_height="wrap_content"
+     		     android:text="RealEstate"     		    
+     		     android:layout_weight=".1"    		     
+     		     android:drawableTop="@drawable/ic_real_estate"
+     		     android:textColor="#E74C3C"
+     		     android:textAllCaps="false"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnmovies"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Movies" 
+                android:textAllCaps="false"
+                android:drawableTop="@drawable/ic_movies"
+                 android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" 
+                />
+    </LinearLayout>
+    <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+            
+            <Button
+       			 android:id="@+id/btndoctor"
+        		 android:layout_width="match_parent"
+      		     android:layout_height="wrap_content"
+     		     android:text="Doctor"     		    
+     		     android:layout_weight=".1" 
+     		     android:textAllCaps="false"   		     
+     		    android:drawableTop="@drawable/ic_doctor"
+     		     android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btngroceries"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Groceries" 
+                android:textAllCaps="false"
+                android:drawableTop="@drawable/ic_groceries"
+                 android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" 
+                />
+     </LinearLayout>
+     
+	 <LinearLayout
+	        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            
+            android:orientation="horizontal">
+       
+	      <Button
+       			 android:id="@+id/btnchemist"
+        		 android:layout_width="match_parent"
+      		     android:layout_height="wrap_content"
+     		     android:text="Chemist"     		    
+     		     android:layout_weight=".1"
+     		     android:textAllCaps="false"    		     
+     		     android:drawableTop="@drawable/ic_chemist"
+     		     android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btncivilcontractor"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Civil Contractor" 
+                android:textAllCaps="false"
+                android:drawableTop="@drawable/ic_civilcontractor"
+                 android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" 
+                />
+	 </LinearLayout>  
+	 
+	<LinearLayout 
+	        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+	    
+	    <Button
+       			 android:id="@+id/btndaily"
+        		 android:layout_width="match_parent"
+      		     android:layout_height="wrap_content"
+     		     android:text="Daily Needs"     		    
+     		     android:layout_weight=".1"    		     
+     		     android:drawableTop="@drawable/ic_daily"
+     		     android:textAllCaps="false"
+     		     android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnevents"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Events" 
+                android:textAllCaps="false"
+                android:drawableTop="@drawable/ic_events"
+                 android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+	     </LinearLayout>
+	     
+		<LinearLayout 
+	        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+	    
+	    <Button
+       			 android:id="@+id/btnflowerbanner"
+        		 android:layout_width="match_parent"
+      		     android:layout_height="wrap_content"
+     		     android:text="flower Banner"     		    
+     		     android:layout_weight=".1"    
+     		     android:textAllCaps="false"		     
+     		     android:drawableTop="@drawable/ic_flowerbanner"
+     		     android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/jewellery"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jewellery" 
+                android:textAllCaps="false"
+                android:drawableTop="@drawable/ic_jjewellery"
+                 android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+	     </LinearLayout>
+	     
+		<LinearLayout 
+	        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+	    
+	    <Button
+       			 android:id="@+id/btnpersonalcare"
+        		 android:layout_width="match_parent"
+      		     android:layout_height="wrap_content"
+     		     android:text="Personal Care"     		    
+     		     android:layout_weight=".1"    		     
+     		     android:drawableTop="@drawable/ic_personal_care"
+     		     android:textColor="#E74C3C"
+     		     android:textAllCaps="false"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnloans"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loans" 
+                android:textAllCaps="false"
+                android:drawableTop="@drawable/ic_loans"
+                 android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+	     </LinearLayout>
+	     
+		<LinearLayout 
+	        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+	    
+	    <Button
+       			 android:id="@+id/btnrepairs"
+        		 android:layout_width="match_parent"
+      		     android:layout_height="wrap_content"
+     		     android:text="Repairs"     
+     		     android:textAllCaps="false"		    
+     		     android:layout_weight=".1"    		     
+     		     android:drawableTop="@drawable/ic_repairs"
+     		     android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btntransporters"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Transporters" 
+                android:drawableTop="@drawable/ic_transporters"
+                 android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+	     </LinearLayout>
+	     
+		<LinearLayout 
+	        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+	    
+	    <Button
+       			 android:id="@+id/btntravel"
+        		 android:layout_width="match_parent"
+      		     android:layout_height="wrap_content"
+     		     android:text="Travels"     		    
+     		     android:layout_weight=".1"    		     
+     		     android:drawableTop="@drawable/ic_travel"
+     		     android:textAllCaps="false"
+     		     android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnjobscompressor"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jobs compressor"
+                android:textAllCaps="false" 
+                android:drawableTop="@drawable/ic_jobs_compressor"
+                 android:textColor="#E74C3C"
+     		     android:background="@android:color/transparent"
+     		     android:textStyle="bold"
+                 android:textSize="18sp" />
+
+	     </LinearLayout>
+   </LinearLayout> 
+</ScrollView>

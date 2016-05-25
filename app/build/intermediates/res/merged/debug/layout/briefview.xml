@@ -1,0 +1,132 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hks.BriefviewActivity" >
+
+    <LinearLayout
+        android:layout_width="288dp"
+        android:layout_height="368dp"
+        android:background="#bdbdbd"
+        android:orientation="vertical" >
+
+       	 <LinearLayout
+       		 android:layout_width="match_parent"
+       		 android:layout_height="436dp"
+       		 android:orientation="vertical" >
+       	 <LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:-"/>
+
+        <TextView
+            android:id="@+id/txtpersonname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Person Name"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#E74C3C"
+        android:layout_marginBottom="2dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+        	android:layout_marginRight="5dp"
+        	android:layout_marginTop="5dp"
+        	android:layout_marginBottom="5dp"
+       	    android:background="@android:color/black"
+            android:orientation="vertical" >
+            <ImageView
+        android:id="@+id/slide_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        
+        android:contentDescription="sliding imageview" />
+        </LinearLayout>
+     
+    </FrameLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/txtaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:-"/>
+        
+        <TextView
+            android:id="@+id/txtmobile1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile1:-"/>
+        
+        
+        
+        <TextView
+            android:id="@+id/txtemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="emailid:-"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnlocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#d1bfad"
+            android:text="location"
+            android:textColor="#c5de9d" />
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#d1bfad"
+            android:textColor="#c5de9d"
+            android:text="cancel" />
+    </LinearLayout>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="New Text"
+                 android:id="@+id/lati" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="New Text"
+                 android:id="@+id/longii" />
+
+         </LinearLayout>
+    </LinearLayout>
+</ScrollView>

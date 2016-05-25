@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hks</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">MainActivity</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_activity_listview">MainActivity</string>
+    <string name="title_activity_list_single">MainActivity</string>
+    <string name="title_activity_list">MainActivity</string>
+    <string name="title_activity_aboutus">MainActivity</string>
+    <string name="title_activity_contactus">MainActivity</string>
+    <string name="title_activity_feedback">MainActivity</string>
+    <string name="title_activity_productmaster">MainActivity</string>
+    <string name="title_activity_productbrief">MainActivity</string>
+    <string name="title_activity_productlist">MainActivity</string>
+    <string name="title_activity_briefview">MainActivity</string>
+
+</resources>

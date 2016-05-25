@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hks"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hks.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hks.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.hks.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.hks.ListviewActivity"
+            android:label="@string/title_activity_listview" >
+        </activity>
+        <activity
+            android:name="com.example.hks.ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.hks.AboutusActivity"
+            android:label="@string/title_activity_aboutus" >
+        </activity>
+        <activity
+            android:name="com.example.hks.ContactusActivity"
+            android:label="@string/title_activity_contactus" >
+        </activity>
+        <activity
+            android:name="com.example.hks.FeedbackActivity"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.hks.ProductmasterActivity"
+            android:label="@string/title_activity_productmaster" >
+        </activity>
+        <activity
+            android:name="com.example.hks.ProductbriefActivity"
+            android:label="@string/title_activity_productbrief" >
+        </activity>
+        <activity
+            android:name="com.example.hks.ProductlistActivity"
+            android:label="@string/title_activity_productlist" >
+        </activity>
+        <activity
+            android:name="com.example.hks.BriefviewActivity"
+            android:label="@string/title_activity_briefview" >
+        </activity>
+    </application>
+
+</manifest>

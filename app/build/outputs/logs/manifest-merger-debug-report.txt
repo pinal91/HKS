@@ -1,0 +1,129 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:2:1-73:12
+	package
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:21.0.3] /home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:11:22-64
+application
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:13:5-71:19
+MERGED from [com.android.support:appcompat-v7:21.0.3] /home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] /home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] /home/pinal/Downloads/PROJECT/hks1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:15:9-45
+	android:theme
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:17:9-40
+activity#com.example.hks.MainActivity
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:19:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.example.hks.RegisterActivity
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:27:9-30:20
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:29:13-60
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:28:13-45
+activity#com.example.hks.HomeActivity
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:31:9-34:20
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:32:13-41
+activity#com.example.hks.ListviewActivity
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:35:9-38:20
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:37:13-60
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:36:13-45
+activity#com.example.hks.ListActivity
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:39:9-42:20
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:40:13-41
+activity#com.example.hks.AboutusActivity
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:43:9-46:20
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:45:13-59
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:44:13-44
+activity#com.example.hks.ContactusActivity
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:47:9-50:20
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:49:13-61
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:48:13-46
+activity#com.example.hks.FeedbackActivity
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:51:9-54:20
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:53:13-60
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:52:13-45
+activity#com.example.hks.ProductmasterActivity
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:55:9-58:20
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:57:13-65
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:56:13-50
+activity#com.example.hks.ProductbriefActivity
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:59:9-62:20
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:61:13-64
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:60:13-49
+activity#com.example.hks.ProductlistActivity
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:63:9-66:20
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:65:13-63
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:64:13-48
+activity#com.example.hks.BriefviewActivity
+ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:67:9-70:20
+	android:label
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:69:13-61
+	android:name
+		ADDED from /home/pinal/Downloads/PROJECT/hks1/app/src/main/AndroidManifest.xml:68:13-46
